@@ -1,0 +1,63 @@
+[
+  {
+    "description": "Como usuario desejo entrar no site\ne adicionar um produto ao carrinho pela busca ",
+    "keyword": "Funcionalidade",
+    "name": "Adiciona um produto no carrinho",
+    "line": 2,
+    "id": "adiciona-um-produto-no-carrinho",
+    "tags": [],
+    "uri": "addchart.feature",
+    "elements": [
+      {
+        "id": "adiciona-um-produto-no-carrinho;adicionar-um-produto-atraves-do-carrinho",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Adicionar um produto atraves do carrinho",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que acesso a pagina principal",
+            "result": {
+              "status": "passed",
+              "duration": 22261000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "pesquiso na barra de pesquisa por \"Faded Short Sleeve\"",
+            "result": {
+              "status": "passed",
+              "duration": 15313000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 11,
+            "name": "eu adiciono ao carrinho de busca",
+            "result": {
+              "status": "passed",
+              "duration": 1062000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 12,
+            "name": "retorna o produto adicionado ao carrinho",
+            "result": {
+              "status": "passed",
+              "duration": 224000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
